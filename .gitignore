@@ -1,0 +1,15 @@
+$ cat .gitignore
+#Whitelist
+/*
+
+#Folders
+!/config
+!/resources
+!/Custom_Element
+
+#Files
+!/.gitignore
+!/README.md
+!/icon.png
+!/options.txt
+!/LICENSE

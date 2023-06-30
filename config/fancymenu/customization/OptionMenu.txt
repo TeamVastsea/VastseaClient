@@ -1,0 +1,72 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiOptions
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=505154%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345280%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345154%
+  orientation = element
+  orientation_element = vanillabtn:345232
+  x = 0
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=505280%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345208%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345256%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=505256%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=345232%
+  action = setbuttonlabel
+  value = 视频设置
+}
+
+customization {
+  identifier = %id=505232%
+  action = setbuttonlabel
+  value = 控制
+}
+
+customization {
+  identifier = %id=505208%
+  action = setbuttonlabel
+  value = 音乐和声音
+}
+

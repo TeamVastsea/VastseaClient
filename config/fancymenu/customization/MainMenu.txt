@@ -1,0 +1,172 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = Custom_Element/background/bg.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 0
+  action = movebutton
+  y = -50
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 选择线路
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 526
+  width = 228
+  action = deep_customization_element:title_screen_forge_top
+  actionid = cc91050c-d989-4a33-916d-9671016b6d1b1660880141351
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 173
+  action = deep_customization_element:title_screen_branding
+  actionid = c0a51273-c6a0-43fc-900f-94a7e82074641660880141362
+  y = 845
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 1087
+  width = 192
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 28f61a3a-b9bb-48c2-8a4f-676667df9b291660880141362
+  y = 489
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 47284b8d-3f94-4c2b-8da6-ef1ec9b722f31660880141363
+  y = 226
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 62e91c0d-a108-48b7-a46a-c172789233361660880141363
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = c9bff1fe-050f-4664-b75b-2c1457b43d901660880141363
+  y = 0
+  splash_file_path = C:\Users\wangr\Documents\瀚海轨道交通-客户端 - 副本 (2)\.minecraft\Custom_Element\splashes\splashes.txt
+  height = 30
+}
+
+customization {
+  orientation = element
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  buttonaction = openlink;https://www.vastsea.cc:/%btnaction_splitter_fm%
+  x = 0
+  width = 200
+  action = addbutton
+  actionid = 86d76f4a-ea2b-410b-bb49-6730060d8aa81660880266821
+  y = -27
+  label = 官方网站
+  height = 20
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = joinserver;mc.vastsea.cc%btnaction_splitter_fm%
+  label = 直接连接
+  loopbackgroundanimations = true
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_options_button
+  x = 0
+  width = 200
+  action = addbutton
+  actionid = d15855d0-5c2d-4ae4-8f49-185b3cbf43191660880469518
+  y = -73
+  backgroundnormal = Custom_Element/background/button.png
+  height = 20
+}
+
+customization {
+  path = Custom_Element/logo/mainlogo.png
+  orientation = top-centered
+  x = -143
+  width = 286
+  actionid = 46143609-b76a-4b75-b375-0b167e1254071661489217221
+  action = addtexture
+  y = 19
+  height = 80
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 选项
+}
+
