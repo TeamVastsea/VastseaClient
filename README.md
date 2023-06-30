@@ -1,1 +1,2 @@
-# Client
+# Vastsea Client Modpack
+## by mczph
