@@ -1,0 +1,12 @@
+{
+    "key_array" : [
+      {
+        "command": "lm",
+        "default_key": 199
+      },
+      {
+        "command": "cd",
+        "default_key": 49
+      }
+    ]
+  }
