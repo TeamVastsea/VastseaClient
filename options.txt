@@ -1,6 +1,6 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.41549295
+mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
 saturation:0.0
@@ -72,15 +72,15 @@ key_key.togglePerspective:63
 key_key.smoothCamera:0
 key_key.fullscreen:87
 key_key.spectatorOutlines:0
-key_key.swapHands:0
+key_key.swapHands:33
 key_key.saveToolbarActivator:0
 key_key.loadToolbarActivator:0
 key_key.advancements:0
 key_key.hotbar.1:2
-key_key.hotbar.2:19
-key_key.hotbar.3:47
-key_key.hotbar.4:33
-key_key.hotbar.5:20
+key_key.hotbar.2:3
+key_key.hotbar.3:4
+key_key.hotbar.4:5
+key_key.hotbar.5:6
 key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
@@ -104,8 +104,8 @@ key_ir_keys.start_stop_engine:78
 key_ir_keys.bell:74
 key_ir_keys.config:181
 key_chineseworkshop.keybind.select:0
-key_key.fart.desc:34
-key_smoothfont.key.guiOpen:199
+key_key.fart.desc:0
+key_smoothfont.key.guiOpen:0
 key_key.jei.toggleOverlay:0
 key_key.jei.focusSearch:0
 key_key.jei.toggleCheatMode:0
@@ -147,7 +147,7 @@ key_mod.chiselsandbits.other.offgrid:0
 key_mod.chiselsandbits.other.undo:0
 key_mod.chiselsandbits.other.redo:0
 key_mod.chiselsandbits.other.add_to_clipboard:0
-key_key.cofh.multimode:47
+key_key.cofh.multimode:0
 key_FpsReducer.key.guiOpen:0
 key_FpsReducer.key.forceIdle:0
 key_key.toggleLiquids:0
@@ -159,6 +159,8 @@ key_key.jeiutilities.displayRecipe:0
 key_key.jeiutilities.pickBookmark:0
 key_key.jeiutilities.transferRecipe:0
 key_key.jeiutilities.transferRecipeMax:0
+key_key.command.lm:49
+key_key.command.cd:49
 key_key.rotateup:0
 key_key.rotatedown:0
 key_key.rotateright:0
@@ -166,7 +168,7 @@ key_key.rotateleft:0
 key_key.little.flip:0
 key_key.little.mark:0
 key_key.little.config.item:0
-key_key.little.config:0:CONTROL
+key_key.little.config:0
 key_key.little.undo:0
 key_key.little.redo:0
 key_ntp.control.power.up:0
