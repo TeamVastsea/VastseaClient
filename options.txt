@@ -5,7 +5,7 @@ fov:0.0
 gamma:1.0
 saturation:0.0
 renderDistance:8
-guiScale:2
+guiScale:4
 particles:0
 bobView:true
 anaglyph3d:false
@@ -106,6 +106,16 @@ key_ir_keys.config:181
 key_chineseworkshop.keybind.select:0
 key_key.fart.desc:0
 key_smoothfont.key.guiOpen:0
+key_key.rotateup:0
+key_key.rotatedown:0
+key_key.rotateright:0
+key_key.rotateleft:0
+key_key.little.flip:0
+key_key.little.mark:0
+key_key.little.config.item:0
+key_key.little.config:0
+key_key.little.undo:0
+key_key.little.redo:0
 key_key.jei.toggleOverlay:0
 key_key.jei.focusSearch:0
 key_key.jei.toggleCheatMode:0
@@ -150,27 +160,17 @@ key_mod.chiselsandbits.other.add_to_clipboard:0
 key_key.cofh.multimode:0
 key_FpsReducer.key.guiOpen:0
 key_FpsReducer.key.forceIdle:0
+key_Open configuration screen:25
 key_key.toggleLiquids:0
 key_key.toggleVisible:0
 key_key.immersiveengineering.magnetEquip:0
 key_key.immersiveengineering.chemthrowerSwitch:0
-key_Open configuration screen:25
 key_key.jeiutilities.displayRecipe:0
 key_key.jeiutilities.pickBookmark:0
 key_key.jeiutilities.transferRecipe:0
 key_key.jeiutilities.transferRecipeMax:0
 key_key.command.lm:49
-key_key.command.cd:49
-key_key.rotateup:0
-key_key.rotatedown:0
-key_key.rotateright:0
-key_key.rotateleft:0
-key_key.little.flip:0
-key_key.little.mark:0
-key_key.little.config.item:0
-key_key.little.config:0
-key_key.little.undo:0
-key_key.little.redo:0
+key_key.command.trm open main:199
 key_ntp.control.power.up:0
 key_ntp.control.power.down:0
 key_ntp.control.dir.up:0
@@ -205,12 +205,15 @@ key_gui.xaero_toggle_entity_radar:0
 key_gui.xaero_reverse_entity_radar:0
 key_gui.xaero_toggle_manual_cave_mode:0
 key_gui.xaero_alternative_list_players:0
+key_gui.xaero_toggle_tracked_players:0
 key_gui.xaero_minimap_settings:0
 key_gui.xaero_open_map:50
 key_gui.xaero_open_settings:0
 key_gui.xaero_map_zoom_in:0
 key_gui.xaero_map_zoom_out:0
 key_gui.xaero_quick_confirm:54
+key_gui.xaero_toggle_dimension:0
+key_Clear Measurement:0:ALT
 key_key.control:0
 soundCategory_master:1.0
 soundCategory_music:0.0
